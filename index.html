@@ -2,9 +2,10 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Maggica Salón | Belleza en Oruro</title>
   <meta name="description" content="Salón de belleza Maggica en Oruro: servicios, horarios de atención y ubicación.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -15,6 +16,7 @@
         <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="#servicios">Servicios</a></li>
         <li><a href="#horarios">Horarios</a></li>
+        <li><a href="#escribenos">Escríbenos</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
@@ -28,7 +30,7 @@
 
     <section id="servicios">
       <h2>Servicios</h2>
-      <ul>
+      <ul class="servicios">
         <li>Corte de cabello</li>
         <li>Tinte y coloración</li>
         <li>Peinados para eventos</li>
@@ -44,6 +46,22 @@
         <li>Sábados: 09:00 a 17:00</li>
         <li>Domingos: cerrado</li>
       </ul>
+    </section>
+
+    <section id="escribenos">
+      <h2>Escríbenos</h2>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </main>
 
