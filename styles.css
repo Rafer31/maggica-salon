@@ -104,6 +104,45 @@ form button {
   font-size: 16px;
   cursor: pointer;
 }
+#btn-tema {
+  margin-top: 12px;
+  background-color: white;
+  color: #b5486b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.oscuro {
+  background-color: #1e1519;
+  color: #f5e6ea;
+}
+
+.oscuro section {
+  background-color: #2d2026;
+}
+
+.oscuro h2 {
+  color: #e88aa6;
+}
+
+.oscuro footer h2 {
+  color: white;
+}
+
+.oscuro .servicios li {
+  background-color: #1e1519;
+}
+
+.oscuro form input,
+.oscuro form textarea {
+  background-color: #1e1519;
+  color: #f5e6ea;
+  border-color: #6b4a55;
+}
+
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
